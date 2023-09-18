@@ -1,0 +1,111 @@
+/*moviles 360*740*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+* {
+  font-family: "Playfair", sans-serif;
+  padding: 5px;
+}
+
+.operations{
+  width: 100%;
+  height: 20%;
+
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  color: #fff;
+
+}
+
+
+
+.calc_app{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.calculator {
+  flex: 3;
+  width: 95%;
+  min-width: 400px   ;
+  padding: 5px;
+  height: 50vh;
+  background-color: #f46d4b;
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+
+  max-width: 500px;
+}
+
+#record {
+  flex: 1;
+  max-width:200px ;
+  background-color: rgb(46, 45, 45);
+  display: block;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+@media (min-width: 450px) {
+  .button {
+    font-size: 1.5em;
+  }
+}
+
+#screen {
+  flex:1;
+  margin: 3px;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #333333;
+  color: #d9d9d9;
+  font-size: 30px;
+}
+
+.calc-buttons {
+  flex: 4;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: auto;
+  height: 100%;
+}
+
+.button {
+  margin: 3px;
+  width: auto;
+  height: auto;
+  border-radius: 4px;
+  color: #000000;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsla(153, 89%, 42%, 0.544);
+  transition: 0.2s;
+}
+
+.triggers {
+  background-color: #2ce0e6;
+}
+
+.numbers {
+  background-color: #797373;
+}
+
+.basic-stuff {
+  background-color: #9754f4;
+}
+
+.complex-stuff {
+  background-color: #54b4f4;
+}
+
+
