@@ -6,59 +6,63 @@
   padding: 5px;
 }
 
-.operations{
-  width: 100%;
-  height: 20%;
-
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5em;
-  color: #fff;
-
+#tittle{
+font-family: Georgia;  
+font-size: 35px;
+letter-spacing: 0px;
+word-spacing: 0.4px;
+color: #FF6045;
+font-weight: 700;
+text-decoration: underline solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: uppercase;
+text-align: center;
 }
 
 
-
-.calc_app{
+.calc_app {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   padding: 5px;
-}
-
-.calculator {
-  flex: 3;
-  width: 95%;
-  min-width: 400px   ;
-  padding: 5px;
-  height: 50vh;
-  background-color: #f46d4b;
-  display: flex;
-  gap: 3px;
-  flex-direction: column;
-
-  max-width: 500px;
 }
 
 #record {
   flex: 1;
-  max-width:200px ;
+  max-width: 200px;
   background-color: rgb(46, 45, 45);
   display: block;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
+.operations {
+  width: 100%;
+  height: 20%;
 
-@media (min-width: 450px) {
-  .button {
-    font-size: 1.5em;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.calculator {
+  flex: 3;
+  width: 95%;
+  min-width: 400px;
+  padding: 5px;
+  height: 50vh;
+  background-color: #f46d4b;
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+  max-width: 500px;
 }
 
 #screen {
-  flex:1;
+  flex: 1;
   margin: 3px;
   width: auto;
   height: auto;
@@ -67,6 +71,12 @@
   background-color: #333333;
   color: #d9d9d9;
   font-size: 30px;
+}
+
+@media (min-width: 450px) {
+  .button {
+    font-size: 1.5em;
+  }
 }
 
 .calc-buttons {
@@ -107,5 +117,3 @@ button:hover {
 .complex-stuff {
   background-color: #54b4f4;
 }
-
-
