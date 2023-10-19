@@ -1,8 +1,22 @@
-# Calculator
+# Descripción 🌴
+Pequeño proyecto donde utilizó **Javascript**, **HTML** and **CSS**; junto a **JQUERY** y otras cosas para hacer el proyecto más dinámico y responsivo
 
-I make a calculator with html, css and js; using jquery and another things to make it more dynamic and responsive
+# Autor 😎
+Jill Palma Garro
 
+[LinkedIn](https://www.linkedin.com/in/jillpg) 
 
-<br>
+[Github](https://github.com/JPG24)
+
+# Ejemplo
 
 ![Photo](photo_web.jpg) 
+
+# Instalación 💻
+No necesita ninguna instalación
+
+# Contacto 📩
+Si quieren contactarme, escríbanme a jpalmagarro@gmail.com
+
+
+
